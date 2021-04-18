@@ -1,0 +1,29 @@
+# FIXED
+
+usb/usbkeyboardmap.obj: ../usb/usbkeyboardmap.c
+usb/usbkeyboardmap.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdbool.h
+usb/usbkeyboardmap.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdint.h
+usb/usbkeyboardmap.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/_stdint40.h
+usb/usbkeyboardmap.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/stdint.h
+usb/usbkeyboardmap.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/cdefs.h
+usb/usbkeyboardmap.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/_types.h
+usb/usbkeyboardmap.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/machine/_types.h
+usb/usbkeyboardmap.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/machine/_stdint.h
+usb/usbkeyboardmap.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/_stdint.h
+usb/usbkeyboardmap.obj: C:/ti/TivaWare_C_Series-2.2.0.295/inc/hw_types.h
+usb/usbkeyboardmap.obj: C:/ti/TivaWare_C_Series-2.2.0.295/usblib/usblib.h
+usb/usbkeyboardmap.obj: C:/ti/TivaWare_C_Series-2.2.0.295/usblib/usbhid.h
+
+../usb/usbkeyboardmap.c: 
+C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdbool.h: 
+C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdint.h: 
+C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/_stdint40.h: 
+C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/stdint.h: 
+C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/cdefs.h: 
+C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/_types.h: 
+C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/machine/_types.h: 
+C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/machine/_stdint.h: 
+C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/_stdint.h: 
+C:/ti/TivaWare_C_Series-2.2.0.295/inc/hw_types.h: 
+C:/ti/TivaWare_C_Series-2.2.0.295/usblib/usblib.h: 
+C:/ti/TivaWare_C_Series-2.2.0.295/usblib/usbhid.h: 
