@@ -243,20 +243,27 @@ void i2c_task(void* parm) {
 
 static bool log_errors(void) {
 
-    switch(I2CMasterErr(I2C1_BASE)) {
-    case I2C_MASTER_ERR_ADDR_ACK :
+    uint32_t status = I2CMasterErr(I2C1_BASE);
+
+    if(I2C_MASTER_ERR_ADDR_ACK == (status & I2C_MASTER_ERR_ADDR_ACK)) {
         set_error(addr_ack_err);
-        return true;
-    case I2C_MASTER_ERR_DATA_ACK :
+    }
+
+    if( I2C_MASTER_ERR_DATA_ACK  == (status &  I2C_MASTER_ERR_DATA_ACK )) {
         set_error(data_ack_err);
-        return true;
-    case I2C_MASTER_ERR_ARB_LOST :
+    }
+
+    if(I2C_MASTER_ERR_ARB_LOST == (status & I2C_MASTER_ERR_ARB_LOST)) {
         set_error(arb_lost_err);
-        return true;
-    case I2C_MASTER_ERR_CLK_TOUT :
+    }
+
+    if(I2C_MASTER_ERR_CLK_TOUT == (status & I2C_MASTER_ERR_CLK_TOUT)) {
         set_error(clk_tout_err);
+    }
+
+    if (status) {
         return true;
-    default :
+    } else {
         return false;
     }
 
