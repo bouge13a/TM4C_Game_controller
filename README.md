@@ -15,4 +15,5 @@ Connect both USB ports to a host computer.
 Flash the .out file to the TM4C using LMFLash. 
 Use putty to connect to the TI stellaris virtual COM port. 
 Press TAB to toggle through the serial debug "pages"
+Run the python script in the scripts directory to stream HID values on the HOST computer. 
 
