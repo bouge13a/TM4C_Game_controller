@@ -1,5 +1,5 @@
 # Game_controller
-TTM4C123GXL Game controller using MKII Boosterpack with USB HID interface
+TM4C123GXL Launchpad Game controller using MKII Boosterpack with USB HID interface
 
 # Overview
 This is code for a game controller for a TM4C123GXL Evaluation board combined with an MKII boosterpack. It communicates to the host via USB HID. 
