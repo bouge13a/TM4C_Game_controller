@@ -157,7 +157,10 @@ uint32_t GamepadHandler(void *pvCBData,
     return(0);
 }
 
-static void process_controls(void) {
+static bool process_controls(void) {
+
+    bool res = false;
+    static tGamepadReport last_report;
 
     sReport.ui8Buttons = (uint8_t)(read_button(a_button) |
                                   (read_button(b_button) << 1) |
@@ -165,11 +168,43 @@ static void process_controls(void) {
                                   (read_button(select_button) << 3) |
                                   (read_button(js_button) << 4));
 
+    if (sReport.ui8Buttons != last_report.ui8Buttons) {
+        res = true;
+    }
+
+    if ((uint8_t)last_report.i8XPos - (uint8_t)(get_adc_val(accel_x) >> 4 )> 3 || (uint8_t)last_report.i8XPos - (uint8_t)(get_adc_val(accel_x) >> 4) < -3 ) {
+        res = true;
+    }
+
+    if ((uint8_t)last_report.i8YPos - (uint8_t)(get_adc_val(accel_y) >> 4) > 3 || (uint8_t)last_report.i8YPos - (uint8_t)(get_adc_val(accel_y) >> 4) < -3 ) {
+        res = true;
+    }
+
+    if ((uint8_t)last_report.i8ZPos - (uint8_t)(get_adc_val(accel_z) >> 4) > 3 || (uint8_t)last_report.i8ZPos - (uint8_t)(get_adc_val(accel_z) >> 4) < -3 ) {
+        res = true;
+    }
+
+    if ((uint8_t)last_report.i8JsX - (uint8_t)(get_adc_val(js_x) >> 4) > 3 || (uint8_t)last_report.i8JsX - (uint8_t)(get_adc_val(js_x) >> 4) < -3 ) {
+        res = true;
+    }
+
+    if ((uint8_t)last_report.i8JsY - (uint8_t)(get_adc_val(js_y) >> 4) > 3 || (uint8_t)last_report.i8JsY - (uint8_t)(get_adc_val(js_y) >> 4) < -3 ) {
+        res = true;
+    }
+
     sReport.i8XPos = (uint8_t)(get_adc_val(accel_x) >> 4);
     sReport.i8YPos = (uint8_t)(get_adc_val(accel_y) >> 4);
     sReport.i8ZPos = (uint8_t)(get_adc_val(accel_z) >> 4);
     sReport.i8JsX  = (uint8_t)(get_adc_val(js_x) >> 4);
     sReport.i8JsY  = (uint8_t)(get_adc_val(js_y) >> 4);
+
+    memcpy(&last_report, &sReport, sizeof(last_report));
+
+    if (res) {
+        return true;
+    } else {
+        return false;
+    }
 
 } // End process_controls
 
@@ -227,10 +262,10 @@ void usb_task(void* parm) {
     while(1) {
 
         // Wait for state to be idle
-        if(g_iGamepadState == eStateIdle) {
+        //if(g_iGamepadState == eStateIdle) {
 
             // Fill out sReport
-            process_controls();
+        if (process_controls()) {
 
             // Send sReport
             USBDHIDGamepadSendReport(&g_sGamepadDevice,
@@ -241,6 +276,7 @@ void usb_task(void* parm) {
             g_iGamepadState = eStateSending;
             IntMasterEnable();
         }
+        //}
 
         vTaskDelay(REPORT_PERIOD_MS);
     }

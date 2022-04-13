@@ -1,31 +1,31 @@
 # FIXED
 
 main.obj: ../main.c
-main.obj: C:/Users/steph/Documents/Game_Controller_C/buttons.h
-main.obj: C:/Users/steph/Documents/Game_Controller_C/board_pin_defs.h
-main.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdint.h
-main.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/_stdint40.h
-main.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/stdint.h
-main.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/cdefs.h
-main.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/_types.h
-main.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/machine/_types.h
-main.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/machine/_stdint.h
-main.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/_stdint.h
-main.obj: C:/Users/steph/Documents/Game_Controller_C/FreeRTOS/include/FreeRTOS.h
-main.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stddef.h
-main.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/_ti_config.h
-main.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/linkage.h
-main.obj: C:/Users/steph/Documents/Game_Controller_C/FreeRTOSConfig.h
-main.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdlib.h
-main.obj: C:/Users/steph/Documents/Game_Controller_C/FreeRTOS/include/projdefs.h
-main.obj: C:/Users/steph/Documents/Game_Controller_C/FreeRTOS/include/portable.h
-main.obj: C:/Users/steph/Documents/Game_Controller_C/FreeRTOS/include/deprecated_definitions.h
-main.obj: C:/Users/steph/Documents/Game_Controller_C/FreeRTOS/portable/CCS/ARM_CM4F/portmacro.h
-main.obj: C:/Users/steph/Documents/Game_Controller_C/FreeRTOS/include/mpu_wrappers.h
-main.obj: C:/Users/steph/Documents/Game_Controller_C/FreeRTOS/include/task.h
-main.obj: C:/Users/steph/Documents/Game_Controller_C/FreeRTOS/include/list.h
-main.obj: C:/Users/steph/Documents/Game_Controller_C/FreeRTOS/include/queue.h
-main.obj: C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdbool.h
+main.obj: C:/Users/steph/workspace_v10/Game_Controller/buttons.h
+main.obj: C:/Users/steph/workspace_v10/Game_Controller/board_pin_defs.h
+main.obj: C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/stdint.h
+main.obj: C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/_ti_config.h
+main.obj: C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/linkage.h
+main.obj: C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/_stdint40.h
+main.obj: C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/sys/stdint.h
+main.obj: C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/sys/cdefs.h
+main.obj: C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/sys/_types.h
+main.obj: C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/machine/_types.h
+main.obj: C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/machine/_stdint.h
+main.obj: C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/sys/_stdint.h
+main.obj: C:/Users/steph/workspace_v10/Game_Controller/FreeRTOS/include/FreeRTOS.h
+main.obj: C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/stddef.h
+main.obj: C:/Users/steph/workspace_v10/Game_Controller/FreeRTOSConfig.h
+main.obj: C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/stdlib.h
+main.obj: C:/Users/steph/workspace_v10/Game_Controller/FreeRTOS/include/projdefs.h
+main.obj: C:/Users/steph/workspace_v10/Game_Controller/FreeRTOS/include/portable.h
+main.obj: C:/Users/steph/workspace_v10/Game_Controller/FreeRTOS/include/deprecated_definitions.h
+main.obj: C:/Users/steph/workspace_v10/Game_Controller/FreeRTOS/portable/CCS/ARM_CM4F/portmacro.h
+main.obj: C:/Users/steph/workspace_v10/Game_Controller/FreeRTOS/include/mpu_wrappers.h
+main.obj: C:/Users/steph/workspace_v10/Game_Controller/FreeRTOS/include/task.h
+main.obj: C:/Users/steph/workspace_v10/Game_Controller/FreeRTOS/include/list.h
+main.obj: C:/Users/steph/workspace_v10/Game_Controller/FreeRTOS/include/queue.h
+main.obj: C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/stdbool.h
 main.obj: ../driverlib/debug.h
 main.obj: ../driverlib/fpu.h
 main.obj: ../driverlib/rom_map.h
@@ -47,31 +47,31 @@ main.obj: ../lcd_task.h
 main.obj: ../usb_task.h
 
 ../main.c: 
-C:/Users/steph/Documents/Game_Controller_C/buttons.h: 
-C:/Users/steph/Documents/Game_Controller_C/board_pin_defs.h: 
-C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdint.h: 
-C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/_stdint40.h: 
-C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/stdint.h: 
-C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/cdefs.h: 
-C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/_types.h: 
-C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/machine/_types.h: 
-C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/machine/_stdint.h: 
-C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/sys/_stdint.h: 
-C:/Users/steph/Documents/Game_Controller_C/FreeRTOS/include/FreeRTOS.h: 
-C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stddef.h: 
-C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/_ti_config.h: 
-C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/linkage.h: 
-C:/Users/steph/Documents/Game_Controller_C/FreeRTOSConfig.h: 
-C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdlib.h: 
-C:/Users/steph/Documents/Game_Controller_C/FreeRTOS/include/projdefs.h: 
-C:/Users/steph/Documents/Game_Controller_C/FreeRTOS/include/portable.h: 
-C:/Users/steph/Documents/Game_Controller_C/FreeRTOS/include/deprecated_definitions.h: 
-C:/Users/steph/Documents/Game_Controller_C/FreeRTOS/portable/CCS/ARM_CM4F/portmacro.h: 
-C:/Users/steph/Documents/Game_Controller_C/FreeRTOS/include/mpu_wrappers.h: 
-C:/Users/steph/Documents/Game_Controller_C/FreeRTOS/include/task.h: 
-C:/Users/steph/Documents/Game_Controller_C/FreeRTOS/include/list.h: 
-C:/Users/steph/Documents/Game_Controller_C/FreeRTOS/include/queue.h: 
-C:/ti/ccs930/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdbool.h: 
+C:/Users/steph/workspace_v10/Game_Controller/buttons.h: 
+C:/Users/steph/workspace_v10/Game_Controller/board_pin_defs.h: 
+C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/stdint.h: 
+C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/_ti_config.h: 
+C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/linkage.h: 
+C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/_stdint40.h: 
+C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/sys/stdint.h: 
+C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/sys/cdefs.h: 
+C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/sys/_types.h: 
+C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/machine/_types.h: 
+C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/machine/_stdint.h: 
+C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/sys/_stdint.h: 
+C:/Users/steph/workspace_v10/Game_Controller/FreeRTOS/include/FreeRTOS.h: 
+C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/stddef.h: 
+C:/Users/steph/workspace_v10/Game_Controller/FreeRTOSConfig.h: 
+C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/stdlib.h: 
+C:/Users/steph/workspace_v10/Game_Controller/FreeRTOS/include/projdefs.h: 
+C:/Users/steph/workspace_v10/Game_Controller/FreeRTOS/include/portable.h: 
+C:/Users/steph/workspace_v10/Game_Controller/FreeRTOS/include/deprecated_definitions.h: 
+C:/Users/steph/workspace_v10/Game_Controller/FreeRTOS/portable/CCS/ARM_CM4F/portmacro.h: 
+C:/Users/steph/workspace_v10/Game_Controller/FreeRTOS/include/mpu_wrappers.h: 
+C:/Users/steph/workspace_v10/Game_Controller/FreeRTOS/include/task.h: 
+C:/Users/steph/workspace_v10/Game_Controller/FreeRTOS/include/list.h: 
+C:/Users/steph/workspace_v10/Game_Controller/FreeRTOS/include/queue.h: 
+C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/stdbool.h: 
 ../driverlib/debug.h: 
 ../driverlib/fpu.h: 
 ../driverlib/rom_map.h: 
